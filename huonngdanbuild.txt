@@ -1,0 +1,16 @@
+Để build:
+B1: Vào nơi chứa realese file và copy đường dẫn
+B2: mở CMD và cd đến thư mục realese có chứa file .exe
+B3: sau khi chuyển đến thư mục, chạy câu lệnh sau:" windeployqt --quick . "
+B4: Tại copy các file thư viện khác như: C:\Qt\Tools\mingw1120_64\bin
+Copy file sau vào thư mục realese:
+-libatomic-1.dll
+-libgcc_s_seh-1.dll
+-libgfortran-5.dll
+-libgomp-1.dll
+-libquadmath-0.dll
+-libssp-0.dll
+-libstdc++-6.dll
+-libwinpthread-1.dll
+B5: copy thư mục và nén để sử dụng ở máy khác (Ẩn các file thư viện)
+
